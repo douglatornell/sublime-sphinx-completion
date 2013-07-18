@@ -1,0 +1,22 @@
+{
+    "scope": "text.restructuredtext - source - meta.tag, punctuation.definition.tag.begin",
+
+    "completions":
+    [
+        // Semantic markup
+        { "trigger": "command", "contents": ":command:`${1}`" },
+        { "trigger": "file", "contents": ":file:`${1}`" },
+        { "trigger": "guilabel", "contents": ":guilabel:`${1}`" },
+        { "trigger": "kbd", "contents": ":kbd:`${1}`" },
+        { "trigger": "program", "contents": ":program:`${1}`" },
+
+        // Cross-reference roles
+        { "trigger": "envvar", "contents": ":envvar:`${1}`" },
+        { "trigger": "ref", "contents": ":ref:`${1}`" },
+
+        // Python domain roles
+        { "trigger": "attr", "contents": ":py:attr:`${1}`" },
+        { "trigger": "class", "contents": ":py:class:`${1}`" },
+        { "trigger": "exception", "contents": ":py:exc:`${1}`" }
+    ]
+}

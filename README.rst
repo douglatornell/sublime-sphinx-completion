@@ -7,7 +7,7 @@ These completions are active in the ``text.restructuredtext`` scope.
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
 .. _Sphinx: http://sphinx-doc.org/
-.. _inlin semantic markup: http://sphinx-doc.org/markup/inline.html
+.. _inline semantic markup: http://sphinx-doc.org/markup/inline.html
 
 Not all Sphinx_ roles are included yet;
 I'm just adding them as I have need for them.

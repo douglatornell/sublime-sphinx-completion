@@ -17,6 +17,8 @@
         // Python domain roles
         { "trigger": "attr", "contents": ":py:attr:`${1}`" },
         { "trigger": "class", "contents": ":py:class:`${1}`" },
-        { "trigger": "exception", "contents": ":py:exc:`${1}`" }
+        { "trigger": "exception", "contents": ":py:exc:`${1}`" },
+        { "trigger": "meth", "contents": ":py:meth:`${1}`" },
+        { "trigger": "mod", "contents": ":py:mod:`${1}`" }
     ]
 }

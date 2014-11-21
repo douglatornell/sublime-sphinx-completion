@@ -12,13 +12,17 @@
 
         // Cross-reference roles
         { "trigger": "envvar", "contents": ":envvar:`${1}`" },
+        { "trigger": "option", "contents": ":option:`${1}`" },
         { "trigger": "ref", "contents": ":ref:`${1}`" },
 
         // Python domain roles
         { "trigger": "attr", "contents": ":py:attr:`${1}`" },
         { "trigger": "class", "contents": ":py:class:`${1}`" },
+        { "trigger": "data", "contents": ":py:data:`${1}`" },
         { "trigger": "exception", "contents": ":py:exc:`${1}`" },
+        { "trigger": "func", "contents": ":py:func:`${1}`" },
         { "trigger": "meth", "contents": ":py:meth:`${1}`" },
-        { "trigger": "mod", "contents": ":py:mod:`${1}`" }
+        { "trigger": "mod", "contents": ":py:mod:`${1}`" },
+        { "trigger": "obj", "contents": ":py:obj:`${1}`" }
     ]
 }
